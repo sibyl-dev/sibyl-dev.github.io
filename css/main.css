@@ -9974,6 +9974,10 @@ a.hover-opacity:hover {
   }
 }
 
+.tab-link {
+  transition: all 200ms ease-in;
+}
+
 @media (min-width: 768px) {
   .tab-link {
     padding-left: 48px;

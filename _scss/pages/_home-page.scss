@@ -175,5 +175,6 @@
   &.active {
     background-image: linear-gradient(to right, $primary, $warning);
   }
-
+  
+  transition: all 200ms ease-in;
 }

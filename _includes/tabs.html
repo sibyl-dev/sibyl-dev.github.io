@@ -4,17 +4,18 @@
     {% include heading.html classname="text-center" title="Explain, Understand, Act" subtitle="With the Sibyl libraries, you can augment machine learning applications for smoother human-ML interactions." %}
     <div class="row justify-content-center align-items-center my-4" id="tabs-container">
       <div class="col-lg-5 col-md-6 col-4">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-         
-          <div class="my- d-flex px-md-2 tab-tree-top">
-            <div class="px-2">
-              <img style="background-color: #C45735; padding: 6px;" class=" rounded-circle" width="32" height="32" src="images/sibyl-logo.svg" alt="{{ item.title }}"/>
-            </div>
-            <div>
-              <p class="my-1 font-weight-bold text-primary">Sibyl</p>
-              <p class="mb-1 small">&nbsp;</p>
-            </div>
+               
+        <div class="my- d-flex px-md-2 tab-tree-top">
+          <div class="px-2">
+            <img style="background-color: #C45735; padding: 6px;" class=" rounded-circle" width="32" height="32" src="images/sibyl-logo.svg" alt="{{ item.title }}"/>
           </div>
+          <div>
+            <p class="my-1 font-weight-bold text-primary">Sibyl</p>
+            <p class="mb-1 small">&nbsp;</p>
+          </div>
+        </div>
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
           {% for item in site.data.tabs %}
             {% if forloop.first %}
             <a class="my-1 my-md-1 nav-link active tab-link d-flex tab-tree tab-tree-v" id="v-pills-{{ item.slug }}-tab" data-toggle="pill" href="#v-pills-{{ item.slug }}" role="tab" aria-controls="v-pills-{{ item.slug }}" aria-selected="true">
@@ -41,18 +42,18 @@
         </div>
       </div>
       <div class="col-md-6 col-8">
-        <div class="tab-content mx-lg-5" id="v-pills-tabContent">
+        <div class="embed-responsive embed-responsive-1by1 tab-content mx-lg-5 shadow rounded-lg" id="v-pills-tabContent">
           {% for item in site.data.tabs %}
           {% if forloop.first %}
-          <div class="tab-pane fade show active" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
-            <div class="px-3 py-4 shadow rounded-lg">
-              <img src="{{ item.image }}" />
+          <div class="embed-responsive-item tab-pane fade show active bg-white" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
+            <div class="px-3 py-4 ">
+              <img src="{{ item.image }}"/>
             </div>
           </div>
           {% else %}
-          <div class="tab-pane fade" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
-            <div class="px-3 py-4 shadow rounded-lg">
-              <img src="{{ item.image }}" />
+          <div class="embed-responsive-item tab-pane fade bg-white" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
+            <div class="px-3 py-4">
+              <img src="{{ item.image }}"/>
             </div>
           </div>
           {% endif %}
