@@ -46,14 +46,14 @@
           {% for item in site.data.tabs %}
           {% if forloop.first %}
           <div class="embed-responsive-item tab-pane fade show active bg-white" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
-            <div class="px-3 py-4 ">
-              <img src="{{ item.image }}"/>
+            <div class="w-100 h-100 d-flex align-items-center">
+              <img class="px-2 py-3 px-md-3 py-md-4" src="{{ item.image }}"/>
             </div>
           </div>
           {% else %}
           <div class="embed-responsive-item tab-pane fade bg-white" id="v-pills-{{ item.slug }}" role="tabpanel" aria-labelledby="v-pills-{{ item.slug }}-tab">
-            <div class="px-3 py-4">
-              <img src="{{ item.image }}"/>
+            <div class="w-100 h-100 d-flex align-items-center">
+              <img class="px-2 py-3 px-md-3 py-md-4" src="{{ item.image }}"/>
             </div>
           </div>
           {% endif %}
