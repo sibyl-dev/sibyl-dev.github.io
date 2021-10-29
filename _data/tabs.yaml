@@ -1,0 +1,20 @@
+- title: Sibylapp
+  slug: sibylapp
+  subtitle: Visualize and interact with ML augmentations 
+  image: /images/tabs/Sibylapp.svg
+  icon: /images/tabs/Pyreal-icon.svg
+- title: Sibyl-API
+  slug: sibylapi
+  subtitle: API calls for generalizable ML augmentations
+  image: /images/tabs/Sibyl-API.svg
+  icon: /images/tabs/Sibyl-API-icon.svg
+- title: Pyreal
+  slug: pyreal
+  subtitle: Interpretable feature transformations and explanations
+  image: /images/tabs/Pyreal.svg
+  icon: /images/tabs/Sibylapp-icon.svg
+- title: VBridges
+  slug: vbridges
+  subtitle: Explainable ML for medical data
+  image: /images/tabs/Pyreal.svg 
+  icon: /images/tabs/VBridge-icon.svg

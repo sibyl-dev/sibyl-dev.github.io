@@ -1,0 +1,10 @@
+- title: Child welfare
+  subtitle: Explaining the predictions of child welfare predictive risk models, to aid the referral screening process
+  image: /images/use-cases/Child-icon.svg
+  cta_text: Read the paper
+  cta_url: "https://ieeexplore.ieee.org/abstract/document/9552849"
+- title: Medicine
+  subtitle: Explaining surgery-outcome predictions on electronic health records
+  image: /images/use-cases/Medicine-icon.svg
+  cta_text: Read the paper
+  cta_url: "https://ieeexplore.ieee.org/abstract/document/9555810"
