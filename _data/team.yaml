@@ -2,10 +2,6 @@
   image: alexandra.jpg
   title: Project Lead
   info: DAI Lab, MIT
-- name: Kalyan Veeramachaneni
-  image: kalyan.jpeg
-  title: Principal Investigator
-  info: DAI Lab, MIT
 - name: DONGYU LIU
   image: dongyu.jpg
   title: Postdoc Researcher
@@ -17,4 +13,8 @@
 - name: MICHAELA HENRY
   image: michaela.jpg
   title: Program Coordinator
+  info: DAI Lab, MIT
+- name: Kalyan Veeramachaneni
+  image: kalyan.jpeg
+  title: Principal Investigator
   info: DAI Lab, MIT
