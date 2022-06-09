@@ -1,0 +1,71 @@
+- title: >-
+    The Need for Interpretable Features: Motivation and Taxonomy
+  subtitle: >-
+    Alexandra Zytek, Ignacio Arnaldo, Dongyu Liu, Laure Berti-Equille, Kalyan Veeramachaneni
+  tag: SIGKDD
+  tag_text: ACM SIGKDD Explorations Newsletter, 2022. (to appear)
+  image: /images/publications/2022_featurespace_sigkdd.png
+  links: 
+    - name: "doi"
+      url: "https://doi.org/10.48550/arXiv.2202.11748"
+    - name: "pdf"
+      url: "https://arxiv.org/pdf/2202.11748.pdf"
+- title: >-
+    Sibyl: Understanding and Addressing the Usability Challenges of Machine Learning In High-Stakes Decision Making
+  subtitle: >-
+    Alexandra Zytek, Dongyu Liu, Rhema Vaithianathan, Kalyan Veeramachaneni
+  tag: TVCG
+  tag_text: IEEE Transactions on Visualization and Computer Graphics (VIS'21), 2022.
+  image: /images/publications/2021_sibyl_vis.png
+  links: 
+    - name: "doi"
+      url: "https://doi.org/10.1109/TVCG.2021.3114864"
+    - name: "pdf"
+      url: "http://dongyu.tech/resource/paper/2021_sibyl_vis.pdf"
+    - name: "bib"
+      url: "http://dongyu.tech/resource/bib/2021_sibyl_vis.html"
+    - name: "video"
+      url: "https://dai.lids.mit.edu/wp-content/uploads/2022/04/2021_sibyl_vis.mp4"
+    - name: "talk"
+      url: "https://www.youtube.com/watch?v=rSXsxE2FCMM"
+    - name: "media"
+      url: "https://news.mit.edu/2021/machine-learning-high-stakes-1028"
+
+- title: >-
+    VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models
+  subtitle: >-
+    Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
+  tag: TVCG
+  tag_text: IEEE Transactions on Visualization and Computer Graphics (VIS'21), 2022.
+  image: /images/publications/2021_vbridge_vis.png
+  cta_text: Best Paper Honorable Mention (top 5% out of 440 submissions)
+  cta_url: "http://ieeevis.org/year/2021/info/awards/best-paper-awards"
+  links: 
+    - name: "doi"
+      url: "https://doi.org/10.1109/TVCG.2021.3114836"
+    - name: "pdf"
+      url: "http://dongyu.tech/resource/paper/2021_vbridge_vis.pdf"
+    - name: "bib"
+      url: "http://dongyu.tech/resource/bib/2021_vbridge_vis.html"
+    - name: "video"
+      url: "https://www.youtube.com/watch?v=V7kfbnuBqFI"
+    - name: "talk"
+      url: "https://www.youtube.com/watch?v=kYIk-enkxNk"
+  
+- title: >-
+    Sibyl: Explaining Machine Learning Models for Better Child Welfare Decision Making
+  subtitle: >-
+    Alexandra Zytek, Dongyu Liu, Rhema Vaithianathan, and Kalyan Veeramachaneni
+  tag: CHI EA
+  tag_text: ACM Conference on Human Factors in Computing Systems - Extended Abstracts, 2021.
+  image: /images/publications/2021_sibyl_chilbw.png
+  cta_url: "http://ieeevis.org/year/2021/info/awards/best-paper-awards"
+  links: 
+    - name: "doi"
+      url: "https://doi.org/10.1145/3411763.3451743"
+    - name: "pdf"
+      url: "https://dl.acm.org/doi/pdf/10.1145/3411763.3451743"
+    - name: "bib"
+      url: "http://dongyu.tech/resource/bib/2021_sibyl_chilbw.html"
+    - name: "talk"
+      url: "https://www.youtube.com/watch?v=nOwGFCyQOWg"
